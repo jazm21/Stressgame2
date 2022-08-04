@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB3D1B4289C45D50060ADB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1B3289C45D50060ADB9 /* AppDelegate.swift */; };
+		BDB3D1B6289C45D50060ADB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1B5289C45D50060ADB9 /* SceneDelegate.swift */; };
+		BDB3D1B8289C45D50060ADB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1B7289C45D50060ADB9 /* ViewController.swift */; };
+		BDB3D1BB289C45D50060ADB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB3D1B9289C45D50060ADB9 /* Main.storyboard */; };
+		BDB3D1BE289C45D50060ADB9 /* Stressgame2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1BC289C45D50060ADB9 /* Stressgame2.xcdatamodeld */; };
+		BDB3D1C0289C45D60060ADB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB3D1BF289C45D60060ADB9 /* Assets.xcassets */; };
+		BDB3D1C3289C45D60060ADB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB3D1C1289C45D60060ADB9 /* LaunchScreen.storyboard */; };
+		BDB3D1CE289C45D60060ADB9 /* Stressgame2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1CD289C45D60060ADB9 /* Stressgame2Tests.swift */; };
+		BDB3D1D8289C45D60060ADB9 /* Stressgame2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1D7289C45D60060ADB9 /* Stressgame2UITests.swift */; };
+		BDB3D1DA289C45D60060ADB9 /* Stressgame2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1D9289C45D60060ADB9 /* Stressgame2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB3D1CA289C45D60060ADB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB3D1A8289C45D50060ADB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB3D1AF289C45D50060ADB9;
+			remoteInfo = Stressgame2;
+		};
+		BDB3D1D4289C45D60060ADB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB3D1A8289C45D50060ADB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB3D1AF289C45D50060ADB9;
+			remoteInfo = Stressgame2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB3D1B0289C45D50060ADB9 /* Stressgame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stressgame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB3D1B3289C45D50060ADB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDB3D1B5289C45D50060ADB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDB3D1B7289C45D50060ADB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDB3D1BA289C45D50060ADB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB3D1BD289C45D50060ADB9 /* Stressgame2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stressgame2.xcdatamodel; sourceTree = "<group>"; };
+		BDB3D1BF289C45D60060ADB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB3D1C2289C45D60060ADB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB3D1C4289C45D60060ADB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB3D1C9289C45D60060ADB9 /* Stressgame2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stressgame2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB3D1CD289C45D60060ADB9 /* Stressgame2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stressgame2Tests.swift; sourceTree = "<group>"; };
+		BDB3D1D3289C45D60060ADB9 /* Stressgame2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stressgame2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB3D1D7289C45D60060ADB9 /* Stressgame2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stressgame2UITests.swift; sourceTree = "<group>"; };
+		BDB3D1D9289C45D60060ADB9 /* Stressgame2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stressgame2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB3D1AD289C45D50060ADB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB3D1C6289C45D60060ADB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB3D1D0289C45D60060ADB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB3D1A7289C45D50060ADB9 = {
+			isa = PBXGroup;
+			children = (
+				BDB3D1B2289C45D50060ADB9 /* Stressgame2 */,
+				BDB3D1CC289C45D60060ADB9 /* Stressgame2Tests */,
+				BDB3D1D6289C45D60060ADB9 /* Stressgame2UITests */,
+				BDB3D1B1289C45D50060ADB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB3D1B1289C45D50060ADB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB3D1B0289C45D50060ADB9 /* Stressgame2.app */,
+				BDB3D1C9289C45D60060ADB9 /* Stressgame2Tests.xctest */,
+				BDB3D1D3289C45D60060ADB9 /* Stressgame2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB3D1B2289C45D50060ADB9 /* Stressgame2 */ = {
+			isa = PBXGroup;
+			children = (
+				BDB3D1B3289C45D50060ADB9 /* AppDelegate.swift */,
+				BDB3D1B5289C45D50060ADB9 /* SceneDelegate.swift */,
+				BDB3D1B7289C45D50060ADB9 /* ViewController.swift */,
+				BDB3D1B9289C45D50060ADB9 /* Main.storyboard */,
+				BDB3D1BF289C45D60060ADB9 /* Assets.xcassets */,
+				BDB3D1C1289C45D60060ADB9 /* LaunchScreen.storyboard */,
+				BDB3D1C4289C45D60060ADB9 /* Info.plist */,
+				BDB3D1BC289C45D50060ADB9 /* Stressgame2.xcdatamodeld */,
+			);
+			path = Stressgame2;
+			sourceTree = "<group>";
+		};
+		BDB3D1CC289C45D60060ADB9 /* Stressgame2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB3D1CD289C45D60060ADB9 /* Stressgame2Tests.swift */,
+			);
+			path = Stressgame2Tests;
+			sourceTree = "<group>";
+		};
+		BDB3D1D6289C45D60060ADB9 /* Stressgame2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB3D1D7289C45D60060ADB9 /* Stressgame2UITests.swift */,
+				BDB3D1D9289C45D60060ADB9 /* Stressgame2UITestsLaunchTests.swift */,
+			);
+			path = Stressgame2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB3D1AF289C45D50060ADB9 /* Stressgame2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB3D1DD289C45D60060ADB9 /* Build configuration list for PBXNativeTarget "Stressgame2" */;
+			buildPhases = (
+				BDB3D1AC289C45D50060ADB9 /* Sources */,
+				BDB3D1AD289C45D50060ADB9 /* Frameworks */,
+				BDB3D1AE289C45D50060ADB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stressgame2;
+			productName = Stressgame2;
+			productReference = BDB3D1B0289C45D50060ADB9 /* Stressgame2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB3D1C8289C45D60060ADB9 /* Stressgame2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB3D1E0289C45D60060ADB9 /* Build configuration list for PBXNativeTarget "Stressgame2Tests" */;
+			buildPhases = (
+				BDB3D1C5289C45D60060ADB9 /* Sources */,
+				BDB3D1C6289C45D60060ADB9 /* Frameworks */,
+				BDB3D1C7289C45D60060ADB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB3D1CB289C45D60060ADB9 /* PBXTargetDependency */,
+			);
+			name = Stressgame2Tests;
+			productName = Stressgame2Tests;
+			productReference = BDB3D1C9289C45D60060ADB9 /* Stressgame2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB3D1D2289C45D60060ADB9 /* Stressgame2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB3D1E3289C45D60060ADB9 /* Build configuration list for PBXNativeTarget "Stressgame2UITests" */;
+			buildPhases = (
+				BDB3D1CF289C45D60060ADB9 /* Sources */,
+				BDB3D1D0289C45D60060ADB9 /* Frameworks */,
+				BDB3D1D1289C45D60060ADB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB3D1D5289C45D60060ADB9 /* PBXTargetDependency */,
+			);
+			name = Stressgame2UITests;
+			productName = Stressgame2UITests;
+			productReference = BDB3D1D3289C45D60060ADB9 /* Stressgame2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB3D1A8289C45D50060ADB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BDB3D1AF289C45D50060ADB9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BDB3D1C8289C45D60060ADB9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BDB3D1AF289C45D50060ADB9;
+					};
+					BDB3D1D2289C45D60060ADB9 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BDB3D1AF289C45D50060ADB9;
+					};
+				};
+			};
+			buildConfigurationList = BDB3D1AB289C45D50060ADB9 /* Build configuration list for PBXProject "Stressgame2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB3D1A7289C45D50060ADB9;
+			productRefGroup = BDB3D1B1289C45D50060ADB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB3D1AF289C45D50060ADB9 /* Stressgame2 */,
+				BDB3D1C8289C45D60060ADB9 /* Stressgame2Tests */,
+				BDB3D1D2289C45D60060ADB9 /* Stressgame2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB3D1AE289C45D50060ADB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB3D1C3289C45D60060ADB9 /* LaunchScreen.storyboard in Resources */,
+				BDB3D1C0289C45D60060ADB9 /* Assets.xcassets in Resources */,
+				BDB3D1BB289C45D50060ADB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB3D1C7289C45D60060ADB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB3D1D1289C45D60060ADB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB3D1AC289C45D50060ADB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB3D1BE289C45D50060ADB9 /* Stressgame2.xcdatamodeld in Sources */,
+				BDB3D1B8289C45D50060ADB9 /* ViewController.swift in Sources */,
+				BDB3D1B4289C45D50060ADB9 /* AppDelegate.swift in Sources */,
+				BDB3D1B6289C45D50060ADB9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB3D1C5289C45D60060ADB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB3D1CE289C45D60060ADB9 /* Stressgame2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB3D1CF289C45D60060ADB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB3D1D8289C45D60060ADB9 /* Stressgame2UITests.swift in Sources */,
+				BDB3D1DA289C45D60060ADB9 /* Stressgame2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB3D1CB289C45D60060ADB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB3D1AF289C45D50060ADB9 /* Stressgame2 */;
+			targetProxy = BDB3D1CA289C45D60060ADB9 /* PBXContainerItemProxy */;
+		};
+		BDB3D1D5289C45D60060ADB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB3D1AF289C45D50060ADB9 /* Stressgame2 */;
+			targetProxy = BDB3D1D4289C45D60060ADB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB3D1B9289C45D50060ADB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB3D1BA289C45D50060ADB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB3D1C1289C45D60060ADB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB3D1C2289C45D60060ADB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB3D1DB289C45D60060ADB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB3D1DC289C45D60060ADB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB3D1DE289C45D60060ADB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stressgame2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Stressgame2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB3D1DF289C45D60060ADB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stressgame2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Stressgame2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDB3D1E1289C45D60060ADB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Stressgame2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stressgame2.app/Stressgame2";
+			};
+			name = Debug;
+		};
+		BDB3D1E2289C45D60060ADB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Stressgame2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stressgame2.app/Stressgame2";
+			};
+			name = Release;
+		};
+		BDB3D1E4289C45D60060ADB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Stressgame2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stressgame2;
+			};
+			name = Debug;
+		};
+		BDB3D1E5289C45D60060ADB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Stressgame2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stressgame2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB3D1AB289C45D50060ADB9 /* Build configuration list for PBXProject "Stressgame2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB3D1DB289C45D60060ADB9 /* Debug */,
+				BDB3D1DC289C45D60060ADB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB3D1DD289C45D60060ADB9 /* Build configuration list for PBXNativeTarget "Stressgame2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB3D1DE289C45D60060ADB9 /* Debug */,
+				BDB3D1DF289C45D60060ADB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB3D1E0289C45D60060ADB9 /* Build configuration list for PBXNativeTarget "Stressgame2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB3D1E1289C45D60060ADB9 /* Debug */,
+				BDB3D1E2289C45D60060ADB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB3D1E3289C45D60060ADB9 /* Build configuration list for PBXNativeTarget "Stressgame2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB3D1E4289C45D60060ADB9 /* Debug */,
+				BDB3D1E5289C45D60060ADB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDB3D1BC289C45D50060ADB9 /* Stressgame2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDB3D1BD289C45D50060ADB9 /* Stressgame2.xcdatamodel */,
+			);
+			currentVersion = BDB3D1BD289C45D50060ADB9 /* Stressgame2.xcdatamodel */;
+			path = Stressgame2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDB3D1A8289C45D50060ADB9 /* Project object */;
+}
