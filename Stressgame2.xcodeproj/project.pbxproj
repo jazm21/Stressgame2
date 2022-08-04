@@ -17,6 +17,11 @@
 		BDB3D1CE289C45D60060ADB9 /* Stressgame2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1CD289C45D60060ADB9 /* Stressgame2Tests.swift */; };
 		BDB3D1D8289C45D60060ADB9 /* Stressgame2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1D7289C45D60060ADB9 /* Stressgame2UITests.swift */; };
 		BDB3D1DA289C45D60060ADB9 /* Stressgame2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3D1D9289C45D60060ADB9 /* Stressgame2UITestsLaunchTests.swift */; };
+		BDB3D1E7289C6ECA0060ADB9 /* wosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDB3D1E6289C6ECA0060ADB9 /* wosh.mp3 */; };
+		BDB3D1F1289C80B30060ADB9 /* W6P8DTV-pen-click-63140.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDB3D1F0289C80B30060ADB9 /* W6P8DTV-pen-click-63140.mp3 */; };
+		BDC25D6F289C81CF009EF171 /* N2TFB4W-tentacle-slime-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D6E289C81CF009EF171 /* N2TFB4W-tentacle-slime-1.mp3 */; };
+		BDC25D71289C81D7009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D70289C81D7009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 */; };
+		BDC25D73289C81E4009EF171 /* WHQS65J-comic-punch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDC25D72289C81E4009EF171 /* WHQS65J-comic-punch.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		BDB3D1D3289C45D60060ADB9 /* Stressgame2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stressgame2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB3D1D7289C45D60060ADB9 /* Stressgame2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stressgame2UITests.swift; sourceTree = "<group>"; };
 		BDB3D1D9289C45D60060ADB9 /* Stressgame2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stressgame2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDB3D1E6289C6ECA0060ADB9 /* wosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wosh.mp3; sourceTree = "<group>"; };
+		BDB3D1F0289C80B30060ADB9 /* W6P8DTV-pen-click-63140.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "W6P8DTV-pen-click-63140.mp3"; sourceTree = "<group>"; };
+		BDC25D6E289C81CF009EF171 /* N2TFB4W-tentacle-slime-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "N2TFB4W-tentacle-slime-1.mp3"; sourceTree = "<group>"; };
+		BDC25D70289C81D7009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "6HPK4GY-short-typing-on-computer-keyboard.mp3"; sourceTree = "<group>"; };
+		BDC25D72289C81E4009EF171 /* WHQS65J-comic-punch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "WHQS65J-comic-punch.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +114,11 @@
 				BDB3D1B3289C45D50060ADB9 /* AppDelegate.swift */,
 				BDB3D1B5289C45D50060ADB9 /* SceneDelegate.swift */,
 				BDB3D1B7289C45D50060ADB9 /* ViewController.swift */,
+				BDC25D72289C81E4009EF171 /* WHQS65J-comic-punch.mp3 */,
+				BDC25D70289C81D7009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 */,
+				BDC25D6E289C81CF009EF171 /* N2TFB4W-tentacle-slime-1.mp3 */,
+				BDB3D1F0289C80B30060ADB9 /* W6P8DTV-pen-click-63140.mp3 */,
+				BDB3D1E6289C6ECA0060ADB9 /* wosh.mp3 */,
 				BDB3D1B9289C45D50060ADB9 /* Main.storyboard */,
 				BDB3D1BF289C45D60060ADB9 /* Assets.xcassets */,
 				BDB3D1C1289C45D60060ADB9 /* LaunchScreen.storyboard */,
@@ -234,9 +249,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC25D73289C81E4009EF171 /* WHQS65J-comic-punch.mp3 in Resources */,
+				BDB3D1F1289C80B30060ADB9 /* W6P8DTV-pen-click-63140.mp3 in Resources */,
 				BDB3D1C3289C45D60060ADB9 /* LaunchScreen.storyboard in Resources */,
+				BDB3D1E7289C6ECA0060ADB9 /* wosh.mp3 in Resources */,
 				BDB3D1C0289C45D60060ADB9 /* Assets.xcassets in Resources */,
 				BDB3D1BB289C45D50060ADB9 /* Main.storyboard in Resources */,
+				BDC25D71289C81D7009EF171 /* 6HPK4GY-short-typing-on-computer-keyboard.mp3 in Resources */,
+				BDC25D6F289C81CF009EF171 /* N2TFB4W-tentacle-slime-1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
